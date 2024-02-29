@@ -1,0 +1,87 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background: rgb(226, 223, 223);
+    line-height: 1.5;
+    font-size: 20px;
+    }
+
+    h3{
+        text-transform: uppercase;
+    }
+
+    .giveaway{
+        text-transform: capitalize;
+        font-style: italic;
+    }
+
+    
+   .launch-time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+    .launch-time div {
+        margin: 0 10px;
+        text-align: center;
+        border: 2px solid #333;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+    }
+    .launch-time div p {
+        font-size: 50px;
+        margin: 0;
+        color: #470b0b;
+    }
+    .launch-time div span {
+        font-size: 20px;
+        color: #e70808;
+    }
+
+    @media screen {
+        body {
+            font-family:'Courier New', Courier, monospace;
+            background: rgb(226, 223, 223);
+            line-height: 1.5;
+            font-size: 20px;
+            }
+        
+            h3{
+                text-transform: uppercase;
+            }
+        
+            .giveaway{
+                text-transform: capitalize;
+                font-style: italic;
+            }
+        
+            .speak{
+                text-align: center;
+            }
+            
+           .launch-time {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, sans-serif;
+            }
+            .launch-time div {
+                margin: 0 10px;
+                text-align: center;
+                border: 2px solid #333;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #f5f5f5;
+            }
+            .launch-time div p {
+                font-size: 50px;
+                margin: 0;
+                color: #470b0b;
+            }
+            .launch-time div span {
+                font-size: 20px;
+                color: #e70808;
+            }
+
+    }
